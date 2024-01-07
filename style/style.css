@@ -16,13 +16,13 @@ padding: auto;
 
 
 .banner-title{
-    color: #FFF;
+    color: #e0dddd;
 text-align: center;
 font-size: 32px;
 font-weight: 400;
 width: 259px; 
 height: 40px;
-padding: 177px 530px 0px 530px;
+padding:  177px 530px 0px 530px;
 }
 .banner-description{
     color: white;
@@ -31,5 +31,38 @@ font-size: 72px;
 font-weight: 900;
 width: 632px; 
 height: 190px;
-padding:  0px 344px 177px 344px;
+margin:   0px 344px 177px 344px;
+}
+/*main section*/
+.section-one{
+    background-color: #FFF;
+    width: 1600px;
+    height: 7335px;
+    margin: auto;
+}
+.section-one-title{
+    color: #F00;
+text-align: center;
+font-size: 88px;
+font-weight: 700;
+margin:  200px auto 0px auto;
+}
+.section-one-intro{
+    color: #F00;
+text-align: center;
+font-size: 24px;
+font-weight: 500;
+margin:   50px auto;
+}
+.section-one-description{
+    color: #070211;
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+margin: 50px auto;
+}
+.section-one-pic{
+    width: 802.9px;
+    height: 500px;
+    margin: auto 399px;
 }
