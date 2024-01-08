@@ -127,5 +127,27 @@ font-size: 20px;
 font-weight: 400;
 line-height: 32px;
 width: 896px;
-margin: 20px 564px 2438px 0px;
+margin: 20px 564px 0px 0px;
+}
+.section-three-row{
+    display: table;
+    margin: 20px 0px 0px 0px;
+}
+.column {
+    float: left;
+    padding: 5px;
+}
+div.column:hover {
+    border: 1px solid ;
+}
+.section-three-row-two{
+    display: table;
+    margin: 0px 0px 1464px 0px;
+}
+.column-two {
+    float: left;
+    padding: 5px;
+}
+div.column-two:hover {
+    border: 1px solid ;
 }
