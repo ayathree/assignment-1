@@ -31,7 +31,7 @@ font-size: 72px;
 font-weight: 900;
 width: 632px; 
 height: 190px;
-padding:    0px 344px 177px 344px;
+margin:     0px 344px 177px 344px;
 }
 /*main section*/
 .section-one{
@@ -39,6 +39,7 @@ padding:    0px 344px 177px 344px;
     width: 1600px;
     height: 7335px;
     margin: 50px auto;
+    padding: 50px auto;
 }
 .section-one-title{
     color: #F00;
@@ -74,13 +75,31 @@ margin: 50px auto;
     height: 600px; 
     margin:160px 140px 5039px 140px;
 }
+
 .section-two-title{
     color: #FFF;
 font-size: 64px;
 font-weight: 900;
 letter-spacing: 7.04px; 
 width: 642px;
+padding:  126px 552px 0px 126px;
 }
-.section-two-pic{
-    padding: 0px 10px 400px 900px;
+.section-two-description{
+    color: rgba(255, 255, 255, 0.80);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+width: 697px;
+padding:   0px 497px 0px 126px;
+}
+.section-two-button{
+    color: #FFF;
+    background-color: #3f3b3b;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+width: 203px;
+padding:  130px auto;
+margin: 0px 1059px 142px 158px;
 }
