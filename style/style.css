@@ -31,7 +31,7 @@ font-size: 72px;
 font-weight: 900;
 width: 632px; 
 height: 190px;
-margin:     0px 344px 177px 344px;
+padding:     0px 344px 177px 344px;
 }
 
 /*main section*/
@@ -142,7 +142,7 @@ div.column:hover {
 }
 .section-three-row-two{
     display: table;
-    margin: 0px 0px 1464px 0px;
+    margin: 0px 0px 0px 0px;
 }
 .column-two {
     float: left;
@@ -151,3 +151,71 @@ div.column:hover {
 div.column-two:hover {
     border: 1px solid ;
 }
+
+.section-subs{
+    padding: 130px;
+    border-radius: 10px;
+    background:#f0d6c3;
+    margin: 100px 0px 0px 0px;
+
+}
+.section-subs-pic{
+    width: 150px;
+    height: 150px;
+    margin: 30px 585px 0px 449px;
+
+}
+.section-subs-title{
+    color: #070211;
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.section-subs-description{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.search {
+    display:flex;
+    margin: 0px 236px;
+    
+  }
+  
+  .search-in {
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    color: rgba(7, 2, 17, 0.30);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+    border-radius: 50px 0px 0px 50px;
+  background: #FFF;
+  width: 348px;
+  height: 72px;
+  }
+  
+   .search-bun {
+    float: right;
+    padding: 6px;
+   color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+  background: #F00;
+    cursor: pointer;
+    width: 210px;
+  height: 72px;
+  }
+  
+   .search-bun:hover {
+    background: #ccc;
+  }
