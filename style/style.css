@@ -33,6 +33,7 @@ width: 632px;
 height: 190px;
 margin:     0px 344px 177px 344px;
 }
+
 /*main section*/
 .section-one{
     background-color: #FFF;
@@ -102,4 +103,29 @@ text-transform: uppercase;
 width: 203px;
 padding:  130px auto;
 margin: 0px 1059px 142px 158px;
+}
+
+.section-three-title{
+    color: #F00;
+font-size: 24px;
+font-weight: 500;
+width: 292px;
+height: 29px;
+margin: 100px 1268px 0px 0px ;
+}
+.section-three-description{
+    color: #070211;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+width: 1600px;
+margin: 40px 894px 0px 0px;
+}
+.section-three-info{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+width: 896px;
+margin: 20px 564px 2438px 0px;
 }
