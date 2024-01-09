@@ -8,7 +8,7 @@ body{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../image/banner.png'); 
     background-repeat: no-repeat;
     border-radius: 16px;
-    margin:50px auto ;
+    margin:50px auto 0px auto ;
     width: 1320px;
 height: 600px; 
 padding: auto;
@@ -39,7 +39,7 @@ padding:     0px 344px 177px 344px;
     background-color: #FFF;
     width: 1600px;
     height: 7335px;
-    margin: 50px auto;
+    margin: 50px auto 0px auto;
     padding: 50px auto;
 }
 .section-one-title{
@@ -54,19 +54,19 @@ margin:  200px auto 0px auto;
 text-align: center;
 font-size: 24px;
 font-weight: 500;
-margin:   50px auto;
+margin:   50px auto 0px auto;
 }
 .section-one-description{
     color: #070211;
 text-align: center;
 font-size: 48px;
 font-weight: 700;
-margin: 50px auto;
+margin: 50px auto 0px auto;
 }
 .section-one-pic{
     width: 802.9px;
     height: 500px;
-    margin: auto 399px;
+    margin: auto 399px 0px 399px;
 }
 .section-two{
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../image/Vectorrr.png');
@@ -74,7 +74,7 @@ margin: 50px auto;
     background-position: center;
     width: 1320px;
     height: 600px; 
-    margin:160px 140px 5039px 140px;
+    margin:160px 140px 0px 140px;
 }
 
 .section-two-title{
@@ -102,7 +102,7 @@ font-weight: 700;
 text-transform: uppercase;
 width: 203px;
 padding:  130px auto;
-margin: 0px 1059px 142px 158px;
+margin: 0px 1059px 0px 158px;
 }
 
 .section-three-title{
@@ -111,7 +111,7 @@ font-size: 24px;
 font-weight: 500;
 width: 292px;
 height: 29px;
-margin: 100px 1268px 0px 0px ;
+margin: 300px 1268px 0px 0px ;
 }
 .section-three-description{
     color: #070211;
@@ -237,7 +237,74 @@ line-height: 32px;
   }
  footer{
     color: #FFF;
-    width: 1800px;
-height: 7335px;
 background: black;
+height: 1000px;
+margin: auto;
  } 
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav-title{
+    width: 460px;
+    color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+margin: 129px 0px 0px 0px;
+}
+.nav-pic-one{   
+    display: inline;  
+color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+
+
+
+
+}
+.nav-pic-two{
+    display: inline;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    
+    
+}
+.nav-pic{
+    width: 375px;
+    height: 80px;
+    margin: 125px 0px 0px 0px;
+}
+hr{
+    margin: 40px 140px;
+}
+.web{
+    display: inline;
+    margin:  0px 752px;
+}
+.nav-last{
+    width: 460px;
+    color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+margin: 12px 10px 0px 0px;
+}
+.nav-end{
+    width: 75px;
+    height: 80px;
+    color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+margin: 12px 0px 0px 0px;
+}
+
+
+
+
