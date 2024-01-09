@@ -66,7 +66,7 @@ margin: 50px auto 0px auto;
 .section-one-pic{
     width: 802.9px;
     height: 500px;
-    margin: auto 399px 0px 399px;
+    margin: 100px 399px 0px 399px;
 }
 .section-two{
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../image/Vectorrr.png');
@@ -219,21 +219,46 @@ line-height: 32px;
    .search-bun:hover {
     background: #ccc;
   }
-  .round-row {
+ 
+  .round-row{
     display: flex;
-    margin: 200px 40px 0px 40px;
-    
+    margin: 300px 0px 0px 0px;
+  }
+  .left{
+    text-align: left;
+    width: 393px;
+  }
+  .right{
+    text-align: right;
+    width: 326px;
+    margin: 0px 40px 0px 254px;
   }
   
-  .column {
-    flex: 103.33%;
-  
-  }
   .round {
-    border: 10px solid red;
+    border: 40px solid red;
     border-radius: 50%;
-    padding: 20px;
-    margin:0px 20px 0px 8px;
+    padding: 40px;
+    width: 463px fixed;
+height: 463px fixed;
+margin:0px 0px 0px 210px;
+  }
+  .left-one{
+    color: #F00;
+    font-size: 20px;
+  }
+  .left-two{
+    color: blue;
+  }
+  .left-three{
+    color: rgb(7, 226, 7);
+    font-size: 20px;
+  }
+  .right-one{
+    color: orangered;
+  }
+  .right-two{
+    color: rgb(33, 233, 33);
+    font-size: 16px;
   }
  footer{
     color: #FFF;
